@@ -499,7 +499,7 @@
     [[NSScanner scannerWithString:gStr] scanHexInt:&g];
     [[NSScanner scannerWithString:bStr] scanHexInt:&b];
     
-    return [UIColor colorWithRed:r/225.0 green:g/255.0 blue:b/255.0 alpha:1];
+    return [UIColor colorWithRed:r/255.0 green:g/255.0 blue:b/255.0 alpha:1];
 }
 
 @end
